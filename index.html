@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="./css/ticket.css?v=1"/>
+</head>
+<body>
+
+
+<div class="animation_button" onclick="ticket_start=1;this.remove();">START</div>
+
+
+<div style="margin:auto;margin-top:50px;width:240px;padding:10px;text-align:center;border:5px solid #009090;border-radius:10px;box-shadow:0px 0px 5px #0f0f10;">
+Money falling
+</div>
+
+
+<div id="ticket_top" class="ticket_top" onclick="this.style.display='none';document.getElementById('project').remove();" style="display:none;z-index:100;">
+
+
+<div id="ticket_align" class="ticket_align">
+
+
+<div id="ticket_border" class="ticket_border">
+<div class="ticket_common">
+<div class="ticket_number">ABC 01182765 D</div>
+</div>
+</div>
+
+
+<table class="ticket_table" align="center" cellpadding="0px" cellspacing="0px">
+<tr>
+<td>
+<img class="ticket_table_avatar" src="./images/avatar.png">
+<img class="ticket_table_crown" src="./images/crown.png">
+</td>
+<td class="ticket_table_login"><div>Andrey Alesksandrovich</div>
+</td>
+<td class="ticket_table_right">
+<span class="ticket_table_rate_value">5,0</span>
+<span class="ticket_table_star_full"></span>
+<span class="ticket_table_star_full"></span>
+<span class="ticket_table_star_full"></span>
+<span class="ticket_table_star_half"></span>
+<span class="ticket_table_star_no"></span>
+<div class="ticket_table_date">
+<span class="ticket_table_date_1">Registration</span>
+<span class="ticket_table_date_2">20.05.2022</span>
+</div>
+</td>
+</tr>
+</table>
+
+
+</div>
+
+
+</div>
+
+
+<div id="project" onclick="this.style.display='none';document.getElementById('ticket_top').remove();" style="display:none;position:fixed;z-index:101;top:0;left:0;"></div>
+
+
+<script type="module" src="./js/script.js?v=11"></script>
+
+
+</body>
+</html>
